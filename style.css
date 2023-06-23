@@ -176,3 +176,35 @@
   width: 60px;
   height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: circuito-top 2s linear infinite;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: circuito-bot 2s linear infinite;
+}
+
+@keyframes circuito-top {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 130px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes circuito-bot {
+  0% {
+    right: 0px;
+  }
+  50% {
+    right: 130px;
+  }
+  100% {
+    right: 0px;
+  }
+}
