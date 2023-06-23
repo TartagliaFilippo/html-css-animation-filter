@@ -121,6 +121,29 @@
 .ex-11-icon {
   font-size: 60px;
 }
+
+.ex-11-icon:hover {
+  animation: ruota 2s linear;
+}
+
+@keyframes ruota {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(60deg);
+  }
+  50% {
+    transform: rotate(120deg);
+  }
+  60% {
+    transform: rotate(220deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+}
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
