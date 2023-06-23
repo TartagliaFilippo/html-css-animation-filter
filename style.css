@@ -106,7 +106,18 @@
 
 .ex-10-icon {
   font-size: 60px;
+  animation-name: rotazione;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
+
+@keyframes rotazione {
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
 .ex-11-icon {
   font-size: 60px;
 }
